@@ -9,8 +9,9 @@
 </head>
 <body>
     <header>
-        <img src="https://i.postimg.cc/4xQB1kkG/7fcf815a55c64fe566302fa4f0037095.webp" alt="logo">
-        <nav>
+ <main>       
+        <img class="logo" src="https://i.postimg.cc/4xQB1kkG/7fcf815a55c64fe566302fa4f0037095.webp" alt="logo">
+        <nav class="menu">
             <ul class="menu-list">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
@@ -48,8 +49,8 @@
                 <th>Cellphone Number</th>
             </tr>
             <tr>
-                <th><em>Meezaan</em></th>
-                <th><em>Davids</em></th>
+                <th><em>Mason</em></th>
+                <th><em>Mount</em></th>
                 <th>0658707217</th>
             </tr>
             <tr>
@@ -65,5 +66,38 @@
     <h2>Image</h2>
     <img src="https://i.postimg.cc/sg5T2yGR/photo-1517336714731-489689fd1ca8.jpg" alt="Laptop">
 </section>
+<!-- Form -->
+<section>
+    <h2>Form</h2>
+    <form action="https://formspree.io/f/xeqdzede" method="post">
+        <div>
+            <input type="text" name="name" placeholder="Enter your name">
+        </div>
+        <div>
+            <input type="text" name="surname" placeholder="Enter your surname">
+        </div>
+        <div>
+            <input type="password" name="password" placeholder="Enter your password">
+        </div>
+        <div>
+            <span>Male</span> <input type="radio" name="gender">
+            <span>Female</span> <input type="radio" name="gender">
+        </div>
+        <div>
+            <label>Subjects:</label>
+            <span>HTML 5<input type="checkbox" name="subject" ></span>
+            <span>CSS 3<input type="checkbox" name="subject" ></span>
+            <span>Bootstrap<input type="checkbox" name="subject" ></span>
+            <span>JavaScript<input type="checkbox" name="subject" ></span>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</section>
 </body>
+</main>
+<footer>
+    <p>Copyright &copy; 2022</p>
+</footer>
 </html>
