@@ -3,42 +3,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 header {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 header, footer {
+ 
     background-color: grey;
 }
 /* header, main, footer */
 header, main, footer {
     min-width: 100%;
 }
+
 /* Display: inline-flex */
 header, .menu-list {
     display: inline-flex;
 }
+
 header img {
     width: 5em;
 }
+
 /* menu */
 .menu {
     margin-left: auto;
     align-self: center;
 }
+
 /* menu-list */
 .menu-list {
     list-style: none;
 }
+
 /* menu-list */
 .menu-list li {
     padding: 0 5px;
 }
+
 table {
     border: 3px solid black;
     border-collapse: collapse;
 }
+
 th, td {
     border: 2px solid black;
     text-align: center;
@@ -48,3 +58,30 @@ th, td {
 footer p {
     font-weight: bold;
 }
+
+#box1{
+    background-color: green;
+    color: white;
+    border-radius: 30px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 20px 10px;
+    border: 10px solid black;
+}
+
+#phone1{
+    background-color:red;
+    color: white;
+    font weight:bold;
+}
+
+#phone2{
+    background-color:green;
+    color:blue;
+    font weight:bold;
+}
+
+
